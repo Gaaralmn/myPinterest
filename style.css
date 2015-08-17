@@ -1,0 +1,111 @@
+body {
+	font-family: verdana;
+	font-size: 12px;
+	background: #333;
+	margin:10px;
+	padding: 0px;
+}
+
+input {
+	background: #333;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	border: 0px;
+	margin: 5px;
+}
+
+#title_bar {
+	font-size: 20px;
+	background: #ccc;
+	color:#333;
+	padding: 20px;
+	margin: 10px 0px;
+	border-radius: 5px; 
+	width: 50%;
+}
+
+#title_bar ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+#title_bar ul li{
+	float: left;
+	padding:10px 0px;
+	text-decoration: none;
+}
+
+#title_bar ul li a{
+	background: #ccc;
+	color: #333;
+	padding: 5px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+#title_bar ul li a:hover{
+	background: #333;
+	color: #fff;
+}
+.container {
+	font-family: verdana;
+	background: #ccc;
+	color: #333;
+	padding: 10px;
+	border-radius: 5px;
+	margin:10px 0px;
+	width: 50%;
+	min-height: 700px;
+}
+
+.clear {
+	clear:both;
+}
+
+.box {
+	background: #333;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 10px 0px;
+	text-decoration: none;
+	width: 20%;
+}
+
+#operation_bar table{
+	background: #333;
+	font-family: tahoma;
+	font-size: 12px;
+	border-radius: 5px;
+	width: 30%;
+}
+
+#operation_bar table td {
+	border-radius: 5px;
+	padding: 2px;
+}
+
+#operation_bar table a {
+	background: #CCC;
+	padding: 10px;
+	text-decoration: none;
+	color: #333;
+	display: block;
+}
+
+#operation_bar table a:hover {
+	background: #FFFFFF;
+}
+
+#view_box {
+	width: 200px;
+	box-shadow: 0 0 5px #ccc;
+	padding: 5px;
+}
+
+#view_box img {
+	width:150%;
+}
